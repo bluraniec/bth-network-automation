@@ -19,7 +19,7 @@ def getVersion(node):
     return "Version: "+ run_dict["data"]["native"]["version"]
 
 def Main():
-    host = "172.20.20.1"
+    host = "172.20.20.20"
     port = 5000
 
     mySocket = socket.socket()
